@@ -1,6 +1,6 @@
 # Scripts Repository
 
-Welcome to the dmltbWM/scripts repository! This repository contains scripts for reinstalling from Debian systems to the latest stable version (Debian Stable), supporting Btrfs file system, and using systemd for time synchronization and network management.
+Welcome to the dmltbWM/scripts repository! This repository contains scripts for reinstalling from Debian systems to the latest stable version (Debian Stable), using systemd for time synchronization and network management.
 
 #### Features
 - Utilizes systemd-timesyncd for time synchronization
