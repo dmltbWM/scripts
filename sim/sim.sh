@@ -46,10 +46,10 @@ function sim::ensure_command_exist(){
 
 function sim::ensure_load_kernerl_modules(){
   sim::log "[*] Loading kernel modules..."
-  local ext4_need_modules=(ext4 crc16 mbcache jbd2)
-  for module in "${ext4_need_modules[@]}"; do
-        sim::load_kernel_module "$module"
-  done
+  #local ext4_need_modules=(ext4 crc16 mbcache jbd2)
+  #for module in "${ext4_need_modules[@]}"; do
+  #      sim::load_kernel_module "$module"
+  #done
   
   local vfat_need_modules=(vfat nls_cp437 nls_ascii nls_utf8)
   for module in "${need_modules[@]}"; do
